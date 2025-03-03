@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="/assets_crypto_z/nexo-(nexo).png"
+            alt="company logo"
+            class="logo-sign"
+          /><span class="logo-name">crypto<span class="z">Z</span></span>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span><span class="bar"></span
+          ><span class="bar"></span><span class="bar"></span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Price</a></li>
+          <li><a href="#">Learn</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <div class="login">
+          <span>Sign in</span>
+          <button>Get started</button>
+        </div>
+      </nav>
+    </header>
+
+    <!--- hero section --->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-direction">
+          <h2>
+            Your all-in-one platform <br />
+            to buy, sell, trade, and <br />
+            earn Cryptocurrencies
+          </h2>
+          <p class="open-account">
+            Open a free account in minutes right from your phone and make <br />
+            your money go further
+          </p>
+          <div class="get-started">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address...."
+            />
+            <p class="button">Get Started</p>
+          </div>
+        </div>
+        <!--this is the currency converter-->
+        <div class="currency-converter">
+          <h2>Currency Converter</h2>
+          <p>Amount</p>
+          <p class="important-data">
+            <img id="from-currency-flag" class="flag" />
+            <select id="from-currency">
+              <!-- Options will be populated using JavaScript -->
+            </select>
+            <input
+              type="number"
+              id="amount"
+              name="amount"
+              min="1"
+              placeholder="Amount...."
+            />
+          </p>
+          <p>Converted to</p>
+          <p class="important-data">
+            <img id="to-currency-flag" class="flag" />
+            <select id="to-currency">
+              <!-- Options will be populated by JavaScript -->
+            </select>
+            <span id="result">waiting....</span>
+          </p>
+          <p>Date</p>
+          <p class="important-data">
+            <span id="date"></span>
+            <span id="time" style="margin-left: 10px"></span>
+          </p>
+          <p>EUR GBP BTC</p>
+          <img
+            src="/assets_crypto_z/Cam3.png"
+            alt="bitcoin image"
+            class="arrow-bitcoin"
+          />
+          <img
+            src="/assets_crypto_z/Cam2.png"
+            alt="bitcoin image"
+            class="popular-bitcoin"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="coins">
+      <div class="coin-div">
+        <img src="/assets_crypto_z/Binance-Logo.wine.png" alt="binance logo" />
+        <img
+          src="/assets_crypto_z/Coinbase-Logo.wine.png"
+          alt="coinbase logo"
+        />
+        <img src="/assets_crypto_z/Bitcoin-Logo.wine.png" alt="bitcoin logo" />
+        <img
+          src="/assets_crypto_z/Tether_(cryptocurrency)-Logo.wine.png"
+          alt="tether logo"
+        />
+        <img
+          class="bitmex"
+          src="/assets_crypto_z/bitmex_logo@logotypus.com.png"
+          alt="Bitmex logo"
+        />
+      </div>
+    </section>
+    <section class="numbers-section">
+      <div class="numbers-container">
+        <div class="numbers one">
+          <p class="count">99K</p>
+          <p class="description">People have joined</p>
+          <p class="line">_____________</p>
+        </div>
+        <div class="numbers two">
+          <p class="count">50k</p>
+          <p class="description">VIP users have joined</p>
+          <p class="line">_____________</p>
+        </div>
+        <div class="numbers three" style="border: none">
+          <p class="count">100+</p>
+          <p class="description">Big companies have joined</p>
+        </div>
+      </div>
+    </section>
+    <!--the most trusted crypto platform section-->
+    <section class="trusted-crypto1">
+      <div class="trusted-container">
+        <div class="trusted-crypto">
+          <h1>The most trusted cryptocurrency platform</h1>
+          <div class="trusted-crypto-explain">
+            <p class="numbering">01</p>
+            <div class="sync-platforms">
+              <h3>Sync between platforms</h3>
+              <p class="explaination">
+                No matter wether you are using our web interface or mobile
+                app-your data is always synced. Just one account for all our
+                services.
+              </p>
+            </div>
+          </div>
+          <div class="trusted-crypto-explain">
+            <p class="numbering">02</p>
+            <div class="sync-platforms">
+              <h3>More focus, less clutter</h3>
+              <p class="explaination">
+                No adds, just the crypto and content you love.
+              </p>
+            </div>
+          </div>
+          <div class="trusted-crypto-explain last-explaination">
+            <p class="numbering">03</p>
+            <div class="sync-platforms">
+              <h3>Security by default</h3>
+              <p class="explaination" style="border: none">
+                Enable privacy mode and app locking to protect your data
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="trusted-crypto-photo">
+          <img
+            src="/assets_crypto_z/Group 5347.png"
+            alt="phone images of crypto"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Create portfolio section-->
+    <section class="portfolio">
+      <div class="create-portfolio">
+        <div class="portfolio-today">
+          <div class="image-container">
+            <img src="/assets_crypto_z/Group 8749.png" alt="mobile app photo" />
+          </div>
+          <h1>Create portfolio today</h1>
+          <p>
+            Buy and sell popular digital currencies, keep track of them in one
+            place. Has a variety of features that make it the best place to
+            start trading
+          </p>
+        </div>
+        <div class="fast-trading trade">
+          <div class="image-container">
+            <img
+              src="/assets_crypto_z/Group 8748.png"
+              alt="mobile crypto image"
+            />
+          </div>
+          <div class="text-description">
+            <h2>Lightning fast crypto-trading</h2>
+            <p>
+              The exchange supports USD, EUR and GBP. Invest in cryptocurrency
+              slowly over by scheduling buys daily, weekly, or monthly.
+            </p>
+          </div>
+        </div>
+        <div class="security trade">
+          <div class="image-container">
+            <img
+              src="/assets_crypto_z/Group 8747.png"
+              alt="mobile crypto identity view"
+            />
+          </div>
+          <div class="text-description">
+            <h2>Security From Day One</h2>
+            <p>
+              Safety, security and compliance. Buy and sell popular digital
+              currencies, keep track of them in one place.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get-started">
+        <div class="one-minute">
+          <h1>Get started in just one minute</h1>
+          <p>
+            Has a variety of features that makes it the best place to start
+            trading
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature-card">
+            <img src="/assets_crypto_z/Frame 219.png" alt="frame photo" />
+            <h2>Sign up</h2>
+            <p>
+              Buy Bitcoin or Ethereum, the security store it in your wallet or
+              send it on easily to friends
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="/assets_crypto_z/Frame 220.png" alt="frame photo" />
+            <h2>Fund</h2>
+            <p>
+              Choose your prefered payment method such as bank account or credit
+              card to top up your wallet
+            </p>
+          </div>
+          <div class="feature-card">
+            <img src="/assets_crypto_z/Frame 221.png" alt="frame photo" />
+            <h2>Buy Crypto</h2>
+            <p>
+              Sign up for free wallet on web, IOS or android and follow our easy
+              process to set up your profile
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--what people are saying section-->
+    <div class="opinion">
+      <h2>What people are sayng</h2>
+      <div class="individual-opinions">
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+        <div class="individuals">
+          <div class="profile">
+            <img src="/assets_crypto_z/my.jpg" alt="clients photograph" />
+            <div class="profile-description">
+              <h4>King Claud</h4>
+              <p class="personality">CEO of the SLACKMONKEY brand</p>
+            </div>
+          </div>
+          <p class="testimony">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            consequatur debitis in unde. Cumque, magnam ab sit necessitatibus,
+            voluptatum exercitationem maiores earum recusandae voluptates est
+            et! Libero reiciendis sit perspiciatis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Taking the first step section of the website-->
+    <div class="take-steps">
+      <div class="first-step">
+        <div class="step">
+          <h2>Take your first step into safe, secure crypto investing</h2>
+          <button>Get started</button>
+        </div>
+        <img src="/assets_crypto_z/luna.png" alt="photo of luna" class="luna" />
+        <img
+          src="/assets_crypto_z/eth.png"
+          alt="photo of Ethereum"
+          class="eth"
+        />
+        <img src="/assets_crypto_z/btc.png" alt="photo of BTC" class="btc" />
+      </div>
+    </div>
+    <!--this is the footer area------------------->
+    <div class="footer-container">
+      <div class="top-footer">
+        <ul>
+          <h4>Company</h4>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Student</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Trust and Safety</a></li>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">Videos</a></li>
+        </ul>
+
+        <ul>
+          <h4>Learn</h4>
+          <li><a href="#">What's trending</a></li>
+          <li><a href="#">Product News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">University</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Market Updates</a></li>
+        </ul>
+        <ul>
+          <h4>Products</h4>
+          <li><a href="#">Stock & Fund</a></li>
+          <li><a href="#">Cash Card</a></li>
+          <li><a href="#">Crypto</a></li>
+          <li><a href="#">Options</a></li>
+          <li><a href="#">Gold</a></li>
+          <li><a href="#">Learn Snacks</a></li>
+        </ul>
+        <ul>
+          <h4>Support</h4>
+          <li><a href="#">Support center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">System Status</a></li>
+          <li><a href="#">Areas of Availability</a></li>
+        </ul>
+        <ul>
+          <h4>Resources</h4>
+          <li><a href="#">Prices</a></li>
+          <li><a href="#">Site Widgets</a></li>
+          <li><a href="#">Tax</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="bottom-footer">
+        <h2>Did you kno you can do more with crypto while on the go</h2>
+        <div class="logo">
+          <img
+            src="/assets_crypto_z/nexo-(nexo).png"
+            alt="company logo"
+            class="logo-sign"
+          /><span class="logo-name"
+            >crypto<span class="z" style="color: black">Z</span></span
+          >
+        </div>
+        <p>&#169; Designed by Amarachi Iwueze. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="config.js"></script> 
+    <script src="/script.js"></script>
+  </body>
+</html>
